@@ -1,6 +1,6 @@
 package com.streaming.library.model;
 
-import com.streaming.library.model.Team;
+import com.streaming.library.model.record.Team;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.streaming.library.event;
+package com.streaming.library.model.record.event;
 
 import com.streaming.library.enums.EventType;
 import com.streaming.library.enums.Sport;

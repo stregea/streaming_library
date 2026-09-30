@@ -1,7 +1,6 @@
-package com.streaming.library.model;
+package com.streaming.library.model.record;
 
 import com.streaming.library.enums.Sport;
-import com.streaming.library.model.Team;
 
 import java.util.UUID;
 

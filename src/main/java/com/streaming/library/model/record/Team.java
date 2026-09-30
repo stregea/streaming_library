@@ -1,4 +1,4 @@
-package com.streaming.library.model;
+package com.streaming.library.model.record;
 
 import java.util.List;
 import java.util.UUID;
