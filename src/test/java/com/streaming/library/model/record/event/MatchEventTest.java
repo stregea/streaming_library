@@ -2,7 +2,6 @@ package com.streaming.library.model.record.event;
 
 import com.streaming.library.enums.EventType;
 import com.streaming.library.enums.Sport;
-import com.streaming.library.model.record.Match;
 import com.streaming.library.model.util.RecordTest;
 import org.junit.jupiter.api.Test;
 

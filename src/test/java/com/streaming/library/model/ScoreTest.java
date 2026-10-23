@@ -24,12 +24,18 @@ public class ScoreTest implements ClassTest {
     private static final List<Team> TEAMS = List.of(HOME_TEAM, AWAY_TEAM);
     private Score score;
 
+    /**
+     * Set up the test environment before each test case.
+     */
     @BeforeEach
     @Override
     public void setUp() {
         score = new Score(TEAMS);
     }
 
+    /**
+     * Test basic assertions against the {@link Score} object.
+     */
     @Test
     public void testScore() {
         assertNotNull(score);
@@ -37,6 +43,9 @@ public class ScoreTest implements ClassTest {
         assertEquals(0, score.getScore(AWAY_TEAM));
     }
 
+    /**
+     * Test the addPoints method of the {@link Score} object.
+     */
     @Test
     public void testAddPoints() {
         Integer pointsToAdd = 1;
@@ -53,6 +62,9 @@ public class ScoreTest implements ClassTest {
         assertEquals(pointsToAdd, score.getScore(HOME_TEAM));
     }
 
+    /**
+     * Test the addPoints method of the {@link Score} object when null values are provided.
+     */
     @Test
     public void testAddPointsThrowException() {
         Integer pointsToAdd = 1;
